@@ -1,0 +1,221 @@
+:root {
+  --logo-color: #2196f3;
+  --background-color: #2f303a;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --contacts-header-color: #757575;
+  --body-background-color: #ffffff;
+  --main-text-color: #212121;
+}
+
+body {
+  font-family: "Roboto";
+  color: var(--main-text-color);
+  background-color: var(--body-background-color);
+}
+.navigation-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 254px;
+}
+.navigation-name {
+  font-family: "Raleway";
+  color: var(--logo-color);
+  font-weight: 700;
+  font-size: 26px;
+}
+.navigation h2 {
+  font-size: 26px;
+}
+.navigation {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navigation-logo {
+  color: #000000;
+}
+.navigation-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navigation-footer-header {
+  color: #ffffff;
+}
+
+.navigation a:focus,
+.navigation a:hover,
+.navigation-footer a:focus,
+.navigation-footer a:hover {
+  color: var(--logo-color);
+}
+.main-header {
+  background-color: var(--background-color);
+  width: 100%;
+  height: 600px;
+}
+.main-header-content {
+  text-align: center;
+}
+.main-header-text {
+  font-family: "Roboto";
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main-header-button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--logo-color);
+  font-family: "Roboto";
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+
+.main-list {
+  list-style: none;
+}
+
+.main-list li {
+  display: inline;
+}
+.main-list-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.main-list h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+}
+.main-list p {
+  font-size: 16px;
+  color: var(--contacts-header-color);
+  line-height: 1.71;
+}
+.navigation-footer {
+  width: 100%;
+  height: 252px;
+  background-color: var(--background-color);
+}
+.contact-links a {
+  font-size: 14px;
+  color: var(--contacts-color);
+}
+.contact-links-header a {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--contacts-header-color);
+}
+.navigation-footer address {
+  color: #ffffff;
+  font-size: 14px;
+}
+.filters {
+  list-style-type: none;
+  display: flex;
+  width: 257px;
+  height: 54px;
+}
+.filters button {
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 4px;
+}
+.filters button:focus,
+.filters button:hover {
+  background-color: var(---color);
+  color: #ffffff;
+.product-card {
+  border: 1px solid #eeeeee;
+  width: 370px;
+  height: 404px;
+}
+.product-card img {
+  width: 370px;
+  height: 294px;
+  object-fit: cover;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--main-text-color);
+}
+.product-description {
+  font-size: 16px;
+  color: var(--contacts-header-color);
+}
+.team figure {
+  display: flex;
+}
+.team-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-card {
+  border: 1px solid #eeeeee;
+  width: 270px;
+  height: 368px;
+}
+.team-card img {
+  width: 270px;
+  height: 260px;
+}
+.team-card-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--main-text-color);
+}
+.team-card-description {
+  font-size: 16px;
+  color: var(--contacts-header-color);
+}
+.lorem {
+  display: flex;
+}
+.feature {
+  width: 270px;
+  text-align: left;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.feature-content {
+  font-size: 14px;
+  line-height: 1.71;
+  height: fit-content;
+}
